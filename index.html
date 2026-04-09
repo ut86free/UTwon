@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>優塔娛樂城 (UTown) - 旗艦級優惠盛典 | 首存100% | ID:3599</title>
-    <meta name="description" content="優塔娛樂城 (UTown) 官方優惠總覽：新人首存雙重送、每日存款回饋、VIP晉級禮遇及好友推薦獎金。透過小美專屬連結註冊，享最高規格福利！">
-    <meta name="keywords" content="優塔娛樂城優惠, UTown體驗金, USDT娛樂城, 娛樂城首存, 娛樂城好友推薦, VIP晉級金">
+    <meta name="description" content="優塔娛樂城 (UTown) 小美官方優惠總覽：新人首存雙重送、每週/每月流水回饋、日日88U紅包及好友推薦獎金。透過小美專屬連結註冊，享最高規格福利！">
+    <meta name="keywords" content="優塔娛樂城優惠, UTown體驗金, USDT娛樂城, 娛樂城首存, 娛樂城好友推薦, VIP晉級金, 娛樂城返水">
     
-    <meta property="og:title" content="🔥 優塔娛樂城 x 小美獨家福利 - 優惠全收錄">
-    <meta property="og:description" content="首存100%回饋、VIP晉級彩金、每日救援金。點擊查看最新活動詳情。">
+    <meta property="og:title" content="🔥 優塔娛樂城 x 小美獨家福利 - 旗艦級優惠盛典">
+    <meta property="og:description" content="首存100%回饋、流水最高回饋1288U、日日領88U紅包。點擊查看最新活動詳情。">
     <meta property="og:image" content="https://ut005.com/wp-content/uploads/elementor/thumbs/utown_zhs-rcdhkeuy2f4cdcofrddsr0gzxhs04m5dka1uptikb6.png">
     <meta property="og:url" content="https://u11.town/zh-TW?p=3599">
     <meta property="og:type" content="website">
@@ -43,7 +43,7 @@
                 radial-gradient(circle at 90% 80%, rgba(212, 175, 55, 0.05) 0%, transparent 20%);
             color: var(--text-main);
             line-height: 1.6;
-            overflow-x: hidden; /* 防止橫向卷軸 */
+            overflow-x: hidden;
         }
 
         a { text-decoration: none; color: inherit; transition: 0.3s; }
@@ -79,15 +79,13 @@
         .hero {
             text-align: center;
             padding: 80px 20px 60px;
-            /* 使用官方圖片作為背景 */
             background: url('https://ut005.com/wp-content/uploads/2025/09/2.2.jpg') no-repeat center top/cover;
             position: relative;
         }
-        /* 黑色遮罩讓文字更清楚 */
         .hero::after {
             content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
             background: linear-gradient(to bottom, rgba(10,10,10,0.7) 0%, var(--bg-dark) 100%);
-            pointer-events: none; /* 讓點擊穿透遮罩 */
+            pointer-events: none;
         }
         .hero-content { position: relative; z-index: 2; }
         
@@ -124,7 +122,6 @@
             gap: 25px;
         }
 
-        /* 卡片設計 */
         .promo-card {
             background: var(--bg-card);
             border: 1px solid #333;
@@ -140,19 +137,18 @@
             box-shadow: 0 10px 30px rgba(0,0,0,0.5);
         }
         
-        /* 卡片圖片區 */
         .card-img-top {
-            height: 160px;
+            height: 140px;
             background: #222;
             display: flex; align-items: center; justify-content: center;
             position: relative;
             overflow: hidden;
         }
-        .card-img-top i { font-size: 4rem; color: rgba(255,255,255,0.1); }
+        .card-img-top i { font-size: 4rem; color: rgba(255,255,255,0.08); }
         .card-overlay-text {
             position: absolute;
             font-family: 'Orbitron';
-            font-size: 2rem; font-weight: 900;
+            font-size: 1.8rem; font-weight: 900;
             background: var(--gold-gradient);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -160,37 +156,46 @@
 
         .card-body { padding: 20px; flex-grow: 1; display: flex; flex-direction: column; }
         .card-title { font-size: 1.3rem; font-weight: 700; margin-bottom: 10px; color: #fff; }
-        .card-desc { font-size: 0.95rem; color: var(--text-sub); margin-bottom: 20px; line-height: 1.6; }
+        .card-desc { font-size: 0.95rem; color: var(--text-sub); margin-bottom: 15px; line-height: 1.5; }
         
-        /* 重點功能列表 */
+        /* 階梯獎勵表 (取代舊版表格) */
+        .reward-list {
+            margin: 0 0 15px 0; padding: 10px 15px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 8px;
+            border: 1px solid #2a2a2a;
+            list-style: none;
+        }
+        .reward-list li {
+            display: flex; justify-content: space-between;
+            border-bottom: 1px dashed #333;
+            padding: 6px 0; font-size: 0.9rem; color: #ccc;
+        }
+        .reward-list li:last-child { border-bottom: none; }
+        .reward-list .amt { color: var(--gold-text); font-weight: bold; font-family: 'Orbitron', sans-serif; }
+        .reward-list .header-row { font-weight: bold; color: #fff; border-bottom: 1px solid #444; padding-bottom: 8px; margin-bottom: 4px; }
+
         .highlight-features {
             margin-top: auto;
             background: rgba(255,255,255,0.05);
             border-radius: 8px;
             padding: 10px;
             margin-bottom: 15px;
+            list-style: none;
         }
         .highlight-features li {
-            list-style: none;
-            display: flex; align-items: center; gap: 8px;
+            display: flex; align-items: start; gap: 8px;
             font-size: 0.9rem; margin-bottom: 5px; color: #ddd;
         }
         .highlight-features li:last-child { margin-bottom: 0; }
-        .highlight-features i { color: var(--gold-text); }
+        .highlight-features i { color: var(--gold-text); margin-top: 4px; }
 
-        /* 卡片按鈕 */
         .btn-claim {
-            width: 100%;
-            padding: 12px;
+            width: 100%; padding: 12px;
             background: var(--gold-gradient);
-            color: #000;
-            border: none;
-            border-radius: 6px;
-            font-weight: 700;
-            cursor: pointer;
-            text-align: center;
-            font-size: 1rem;
-            display: block;
+            color: #000; border: none; border-radius: 6px;
+            font-weight: 700; cursor: pointer;
+            text-align: center; font-size: 1rem; display: block;
         }
         .btn-claim:hover { filter: brightness(1.1); }
 
@@ -211,10 +216,7 @@
         }
         .sticky-btn {
             background: var(--gold-gradient);
-            color: #000;
-            padding: 10px 30px;
-            border-radius: 30px;
-            font-weight: bold;
+            color: #000; padding: 10px 30px; border-radius: 30px; font-weight: bold;
         }
 
         .tg-float {
@@ -229,7 +231,6 @@
         }
         .tg-float:hover { transform: scale(1.1); }
 
-        /* --- 手機適配 --- */
         @media (max-width: 768px) {
             h1 { font-size: 2rem; }
             .grid-box { grid-template-columns: 1fr; }
@@ -247,14 +248,14 @@
 
     <section class="hero">
         <div class="hero-content">
-            <span class="hero-tag">小美線下專屬福利</span>
+            <span class="hero-tag">小美線下獨家福利</span>
             <h1>旗艦級優惠盛典<br><span style="color:var(--gold-text)">最高回饋無上限</span></h1>
             <p style="color:#bbb;">UTown 官方認證 · USDT 極速出金 · 資金安全保障</p>
         </div>
     </section>
 
     <div class="promo-container">
-        <div class="section-title"><i class="fa-solid fa-crown"></i> 熱門優惠活動</div>
+        <div class="section-title"><i class="fa-solid fa-crown"></i> 獨家熱門優惠活動</div>
 
         <div class="grid-box">
 
@@ -265,72 +266,91 @@
                 </div>
                 <div class="card-body">
                     <div class="card-title">新人首存雙重禮遇</div>
-                    <div class="card-desc">
-                        業界最強新人禮包！官方與小美雙重加碼，存200送200，本金翻倍起步。
-                    </div>
+                    <div class="card-desc">業界最強新人禮包！官方與小美雙重加碼，本金直接翻倍起步。</div>
                     <ul class="highlight-features">
-                        <li><i class="fa-solid fa-check"></i> 官方贈送 50%</li>
-                        <li><i class="fa-solid fa-check"></i> 小美加碼 50%</li>
+                        <li><i class="fa-solid fa-check"></i> 存 200U 實拿 400U</li>
+                        <li><i class="fa-solid fa-check"></i> 官方贈送 50% + 小美加碼 50%</li>
                         <li><i class="fa-solid fa-bolt"></i> 申請簡單，極速派彩</li>
                     </ul>
-                    <a href="https://u11.town/zh-TW?p=3599" class="btn-claim" target="_blank">立即申請</a>
+                    <a href="https://t.me/ut86free" class="btn-claim" target="_blank">聯繫客服申請</a>
                 </div>
             </div>
 
             <div class="promo-card">
                 <div class="card-img-top">
                     <i class="fa-solid fa-coins"></i>
-                    <div class="card-overlay-text">DAILY</div>
+                    <div class="card-overlay-text">WEEKLY RELOAD</div>
                 </div>
                 <div class="card-body">
-                    <div class="card-title">每日存款筆筆送</div>
-                    <div class="card-desc">
-                        天天存款天天領，單筆最高贈送 588 USDT。無需繁瑣操作，充值即刻享有。
-                    </div>
-                    <ul class="highlight-features">
-                        <li><i class="fa-solid fa-check"></i> 100U 起即可參與</li>
-                        <li><i class="fa-solid fa-check"></i> 最高單筆送 588U</li>
-                        <li><i class="fa-solid fa-bolt"></i> 每日皆可參加一次</li>
+                    <div class="card-title">每週復存彩金</div>
+                    <div class="card-desc">每週累計存款達標，即可向人工客服申請對應獎金！</div>
+                    <ul class="reward-list">
+                        <li class="header-row"><span>當週存款金額</span><span>贈送彩金</span></li>
+                        <li><span>50 U</span> <span class="amt">8 U</span></li>
+                        <li><span>100 U</span> <span class="amt">10 U</span></li>
+                        <li><span>200 U</span> <span class="amt">18 U</span></li>
+                        <li><span>500 U</span> <span class="amt">38 U</span></li>
+                        <li><span>1,000 U</span> <span class="amt">58 U</span></li>
+                        <li><span>2,000 U</span> <span class="amt">108 U</span></li>
                     </ul>
-                    <a href="https://u11.town/zh-TW?p=3599" class="btn-claim" target="_blank">立即充值</a>
+                    <a href="https://t.me/ut86free" class="btn-claim" target="_blank">向客服申請</a>
                 </div>
             </div>
 
             <div class="promo-card">
                 <div class="card-img-top">
-                    <i class="fa-solid fa-chart-line"></i>
-                    <div class="card-overlay-text">REBATE</div>
+                    <i class="fa-solid fa-water"></i>
+                    <div class="card-overlay-text">WEEKLY REBATE</div>
                 </div>
                 <div class="card-body">
-                    <div class="card-title">每週流水加碼送</div>
-                    <div class="card-desc">
-                        不僅享受高額返水，累積有效投注額再領額外彩金！打越多送越多。
-                    </div>
-                    <ul class="highlight-features">
-                        <li><i class="fa-solid fa-check"></i> 週流水 20萬 贈 258U</li>
-                        <li><i class="fa-solid fa-check"></i> 系統自動結算派發</li>
-                        <li><i class="fa-solid fa-bolt"></i> 真人/體育/電子皆計算</li>
+                    <div class="card-title">每週流水回饋</div>
+                    <div class="card-desc">當週所有遊戲館累計流水達標，超額回饋直接送給您！</div>
+                    <ul class="reward-list">
+                        <li class="header-row"><span>週累計流水</span><span>贈送彩金</span></li>
+                        <li><span>1.5 萬</span> <span class="amt">15 U</span></li>
+                        <li><span>3 萬</span> <span class="amt">30 U</span></li>
+                        <li><span>5 萬</span> <span class="amt">50 U</span></li>
+                        <li><span>10 萬</span> <span class="amt">100 U</span></li>
+                        <li><span>20 萬</span> <span class="amt">200 U</span></li>
                     </ul>
-                    <a href="https://u11.town/zh-TW?p=3599" class="btn-claim" target="_blank">開始投注</a>
+                    <a href="https://t.me/ut86free" class="btn-claim" target="_blank">向客服申請</a>
                 </div>
             </div>
 
             <div class="promo-card">
                 <div class="card-img-top">
-                    <i class="fa-solid fa-shield-heart"></i>
-                    <div class="card-overlay-text">RESCUE</div>
+                    <i class="fa-solid fa-calendar-check"></i>
+                    <div class="card-overlay-text">MONTHLY REBATE</div>
                 </div>
                 <div class="card-body">
-                    <div class="card-title">天天救援金 (負盈利回饋)</div>
-                    <div class="card-desc">
-                        小美為您保駕護航！當日運氣不佳，我們提供 5% 救援金，助您東山再起。
-                    </div>
-                    <ul class="highlight-features">
-                        <li><i class="fa-solid fa-check"></i> 負盈利滿額即贈</li>
-                        <li><i class="fa-solid fa-check"></i> 最高回饋 288U</li>
-                        <li><i class="fa-solid fa-bolt"></i> 線下會員專屬福利</li>
+                    <div class="card-title">每月流水回饋</div>
+                    <div class="card-desc">打越多賺越多！當月所有遊戲館流水達標，領取超大包月獎金。</div>
+                    <ul class="reward-list">
+                        <li class="header-row"><span>月累計流水</span><span>贈送彩金</span></li>
+                        <li><span>5 萬</span> <span class="amt">58 U</span></li>
+                        <li><span>15 萬</span> <span class="amt">188 U</span></li>
+                        <li><span>30 萬</span> <span class="amt">488 U</span></li>
+                        <li><span>50 萬</span> <span class="amt">888 U</span></li>
+                        <li><span>100 萬</span> <span class="amt">1,288 U</span></li>
                     </ul>
-                    <a href="https://t.me/ut86free" class="btn-claim" target="_blank" style="background:#0088cc; color:#fff;">聯繫客服申請</a>
+                    <a href="https://t.me/ut86free" class="btn-claim" target="_blank">向客服申請</a>
+                </div>
+            </div>
+
+            <div class="promo-card">
+                <div class="card-img-top">
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                    <div class="card-overlay-text">DAILY 88U</div>
+                </div>
+                <div class="card-body">
+                    <div class="card-title">每日 88U 日日紅包</div>
+                    <div class="card-desc">天天玩，天天領！達成指定條件，專屬大紅包直接入袋。</div>
+                    <ul class="highlight-features">
+                        <li><i class="fa-solid fa-circle-check"></i> 條件1：每日存款滿 2,000U</li>
+                        <li><i class="fa-solid fa-circle-check"></i> 條件2：每日投注滿 10,000U</li>
+                        <li><i class="fa-solid fa-star"></i> 滿足以上，即送 <strong>88U 紅包彩金</strong>！</li>
+                    </ul>
+                    <a href="https://t.me/ut86free" class="btn-claim" target="_blank" style="background:#0088cc; color:#fff;">向小美客服申請</a>
                 </div>
             </div>
 
@@ -341,9 +361,7 @@
                 </div>
                 <div class="card-body">
                     <div class="card-title">VIP 尊榮晉級禮遇</div>
-                    <div class="card-desc">
-                        累積投注即可升級！享有更高的提款限額、專屬客戶經理及生日驚喜禮金。
-                    </div>
+                    <div class="card-desc">累積投注即可升級！享有更高的提款限額、專屬客戶經理及生日驚喜禮金。</div>
                     <ul class="highlight-features">
                         <li><i class="fa-solid fa-check"></i> 晉級禮金自動到帳</li>
                         <li><i class="fa-solid fa-check"></i> 生日專屬紅包</li>
@@ -356,17 +374,15 @@
             <div class="promo-card">
                 <div class="card-img-top">
                     <i class="fa-solid fa-users"></i>
-                    <div class="card-overlay-text">INVITE</div>
+                    <div class="card-overlay-text">INVITE FRIENDS</div>
                 </div>
                 <div class="card-body">
-                    <div class="card-title">好友推薦獎金</div>
-                    <div class="card-desc">
-                        好康道相報！邀請朋友加入優塔 UTown，您將獲得額外推薦獎金，無上限。
-                    </div>
+                    <div class="card-title">好友推薦獎金 + 無限返水</div>
+                    <div class="card-desc">邀請好友註冊，享好友每日有效投注 <strong>0.2% 永久返水</strong>，自動結算無流水限制！</div>
                     <ul class="highlight-features">
-                        <li><i class="fa-solid fa-check"></i> 邀請一人即可領取</li>
-                        <li><i class="fa-solid fa-check"></i> 朋友存款，你領彩金</li>
-                        <li><i class="fa-solid fa-bolt"></i> 佣金終身綁定</li>
+                        <li><i class="fa-solid fa-check"></i> <strong>首存禮：</strong>好友首存 100U，您獲贈 10U</li>
+                        <li><i class="fa-solid fa-check"></i> <strong>無限返：</strong>系統每日自動返還 0.2% 至帳戶</li>
+                        <li><i class="fa-solid fa-bolt"></i> 免流水可直接提領，佣金終身綁定</li>
                     </ul>
                     <a href="https://u11.town/zh-TW?p=3599" class="btn-claim" target="_blank">取得推廣連結</a>
                 </div>
@@ -376,13 +392,13 @@
     </div>
 
     <footer>
-        <p>&copy; 2025 UTown 優塔娛樂城. All Rights Reserved.</p>
-        <p style="font-size:0.8rem; color:#444;">優惠活動最終解釋權歸平台所有 | 聯繫 @ut86free 獲取最新資訊</p>
+        <p>&copy; 2026 UTown 優塔娛樂城. All Rights Reserved.</p>
+        <p style="font-size:0.8rem; color:#444;">所有活動經發現重複領取、套利等違規行為，平台保留扣除優惠之權利。<br>聯繫 @ut86free 獲取最新資訊</p>
     </footer>
 
     <div class="sticky-footer">
-        <span style="color:#fff; font-weight:bold;">🔥 限時福利：首存 200U 送 200U</span>
-        <a href="https://u11.town/zh-TW?p=3599" class="sticky-btn" target="_blank">立即領取</a>
+        <span style="color:#fff; font-weight:bold;">🔥 小美專屬福利：首存 200U 送 200U</span>
+        <a href="https://u11.town/zh-TW?p=3599" class="sticky-btn" target="_blank">立即註冊</a>
     </div>
 
     <a href="https://t.me/ut86free" class="tg-float" target="_blank" title="聯繫小美">
